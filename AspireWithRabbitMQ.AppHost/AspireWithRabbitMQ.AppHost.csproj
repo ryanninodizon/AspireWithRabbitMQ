@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AspireWithRabbitmQ.Sender\AspireWithRabbitmQ.Sender.csproj" />
-    <ProjectReference Include="..\AspireWithRabbitmQ.Receiver\AspireWithRabbitmQ.Receiver.csproj" />
+    <ProjectReference Include="..\AspireWithRabbitMQ.Sender\AspireWithRabbitMQ.Sender.csproj" />
+    <ProjectReference Include="..\AspireWithRabbitMQ.Receiver\AspireWithRabbitMQ.Receiver.csproj" />
   </ItemGroup>
 
 </Project>
