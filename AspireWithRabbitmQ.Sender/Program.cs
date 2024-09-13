@@ -34,7 +34,6 @@ app.MapPost("sendmessage",async Task<IResult>(IConnection connection, string mes
         body:body
     );
     return Results.Ok(new {});
-
 });
 app.Run();
 
