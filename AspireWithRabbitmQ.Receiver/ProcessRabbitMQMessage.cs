@@ -17,7 +17,6 @@ public class ProcessRabbitMQMessage : BackgroundService{
         _logger = logger;
         _serviceProvider = serviceProvider;
     }
-
     protected override Task ExecuteAsync(CancellationToken stoppingToken)
     {
         string queueName = "testMessage";
