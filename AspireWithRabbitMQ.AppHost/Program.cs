@@ -1,5 +1,4 @@
 var builder = DistributedApplication.CreateBuilder(args);
-
 var rabbitMQ = builder.AddRabbitMQ("messaging").WithManagementPlugin();
 
 builder.AddProject<Projects.AspireWithRabbitMQ_Sender>("sender")
