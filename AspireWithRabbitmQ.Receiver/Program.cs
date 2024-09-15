@@ -7,5 +7,6 @@ builder.AddRabbitMQClient("messaging");
 builder.Services.AddHostedService<ProcessRabbitMQMessage>();
 
 var app = builder.Build();
+
 app.Run();
 
